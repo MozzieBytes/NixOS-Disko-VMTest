@@ -2,8 +2,8 @@
   disko.devices = {
     disk = {
       main = {
-        device = "/dev/disk/by-id/some-disk-id";
         type = "disk";
+        imageSize = "10G";
         content = {
           type = "gpt";
           partitions = {
